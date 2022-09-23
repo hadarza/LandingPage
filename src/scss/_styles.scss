@@ -1,0 +1,21 @@
+/*styles for every component necessary for that project, including buttons, modals, etc.*/
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-evently{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.flex-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+

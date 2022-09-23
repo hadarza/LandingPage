@@ -1,0 +1,27 @@
+/*contains all the resets, variables, mixins, and utility classes*/
+$font-family: 'Noto Sans Hebrew';
+/*colors*/
+$background_page: #EFEEEE;
+$orange:#F75861;
+$dark_color: #484545;
+@mixin flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@mixin no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
