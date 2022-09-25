@@ -2,7 +2,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import React,{ useState,useEffect } from 'react';
-let slidesToShow = 3;
+let slidesToShow = 2.5;
 
 const carouselProperties = {
   // prevArrow: <PreviousBtn />,
@@ -23,16 +23,15 @@ const carouselProperties = {
     {
       breakpoint: 769,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 1.5,
         centerMode: false,
       },
     },
     {
       breakpoint: 1025,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 2.5,
         centerMode: false,
-        slidesToScroll: 1,
       },
     },
   ],
@@ -52,11 +51,11 @@ const Carosual = ({title,obj}) => {
   if (width <= 426) {
     slidesToShow = 1;
   } else if (width > 426 && width <= 769) {
-    slidesToShow = 1;
+    slidesToShow = 1.5;
   } else if (width > 769 && width <= 1025) {
-    slidesToShow = 2;
+    slidesToShow = 1.5;
   } else {
-    slidesToShow = 3;
+    slidesToShow = 2.5;
   }
 
   return (
@@ -64,22 +63,26 @@ const Carosual = ({title,obj}) => {
         <h4>{title}</h4>
       <Slider {...carouselProperties}>
             {obj.map((object,index)=>(
-                <ImageComponent key={index} titleCard={object.name} image={object.img}/>
+                <ImageComponent key={index} titleCard={object.name} image={object.img} href={object.href}/>
             ))}
       </Slider>
     </div>
   );
 };
 
-const ImageComponent = ({titleCard,image}) => {
+const ImageComponent = ({titleCard,image,href}) => {
     return (
-      <div className='container_card'>
-              <img  style={{
-                width: '100%',
+       <div className='flex-col'>
+        {console.log(titleCard)}
+            <a alt="href" href={href} download>
+                <img  style={{
                 height:'20rem',
                 objectFit: 'contain',
                 marginBottom: '10px',
+                borderRadius: '20px'
                 }} src={image}/>
+            </a>
+             
           <h5>{titleCard}</h5>
       </div>
     )

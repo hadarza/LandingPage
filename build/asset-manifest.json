@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "./static/css/main.271fb077.css",
+    "main.js": "./static/js/main.4c72c322.js",
+    "static/media/href1.pptx": "./static/media/href1.8ef51ed685a3fe88b4d2.pptx",
+    "static/media/ImgContainer.jpg": "./static/media/ImgContainer.e2a9c52bf2faa59abf62.jpg",
+    "static/media/Tank.jpg": "./static/media/Tank.e2a9c52bf2faa59abf62.jpg",
+    "static/media/bg_pattern.png": "./static/media/bg_pattern.c60b11e605a63d5d7354.png",
+    "static/media/Alef-Bold.ttf": "./static/media/Alef-Bold.658af1d8f9c927635e1d.ttf",
+    "static/media/Alef-Regular.ttf": "./static/media/Alef-Regular.87215bd3b1e53ec07c77.ttf",
+    "static/media/Assistant-Light.ttf": "./static/media/Assistant-Light.84744300d0931d7e69cf.ttf",
+    "static/media/logomachzar.png": "./static/media/logomachzar.25193c096c71c0b4d0a7.png",
+    "static/media/logoHebet.png": "./static/media/logoHebet.b07ef4981f29c2a9c263.png",
+    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "./index.html",
+    "main.271fb077.css.map": "./static/css/main.271fb077.css.map",
+    "main.4c72c322.js.map": "./static/js/main.4c72c322.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.271fb077.css",
+    "static/js/main.4c72c322.js"
+  ]
+}

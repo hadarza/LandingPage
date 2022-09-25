@@ -52,8 +52,10 @@ html{
   height: 35vh;
   left: 0;
   top: 0;
-  background: linear-gradient(90deg, #F97E6E 1.89%, #F75861 95.94%);
-  border-radius: 0px 0px 74px 100px;
+  // background: linear-gradient(90deg, #F97E6E 1.89%, #F75861 95.94%);
+
+  background-color: transparent;
+  background-image: linear-gradient(130deg, #F97E6E 1.89%, #F75861 95.94%);
 }
 
 h1{
@@ -84,6 +86,9 @@ h1,h3,h4{
   font-family: 'Alef-Bold';
   margin: 0;
   text-align: right;
+}
+h4{
+  margin: 3rem;
 }
 
 h2,h5,div{
@@ -159,6 +164,7 @@ h5{
   font-size: 1.5rem;
   text-align: center;
   color: $dark_color;
+  font-weight: 300;
 }
 
 .logo-machzar{
@@ -175,6 +181,7 @@ h5{
 }
 /*Footer*/
 .Footer{
+  margin-top: 5rem;
   >h2{ 
     padding: 1rem 2rem;
     position: relative;
@@ -183,23 +190,40 @@ h5{
   width: 100%;
   background-color: rgba(249, 126, 110, 0.6);
   position: relative;
-  >div{
+  div>.credits{
     direction: rtl;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     >div{
-      padding: 0.7rem;
+      padding: 0rem 2rem;
       >h5{
         text-align: right;
         margin:1rem;
         font-size: 1.5rem;
+        font-weight: 700;
       }
     }
   }
+  >.logo{
+    @include flex;
+    >img{
+      width: 14rem;
+    }
+  }
+}
+@media screen and (max-width:1200px){
+  html{
+   font-size: 12px;
+  }
 }
 
+@media screen and (max-width:960px){
+  html{
+   font-size: 10px;
+  }
+}
 @media screen and (max-width:620px){
   html{
-   font-size: 13px;
+   font-size: 10px;
   }
 }

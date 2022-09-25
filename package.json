@@ -5,8 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --mode=development",
-    "build": "webpack",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -16,7 +16,6 @@
     "@reduxjs/toolkit": "^1.8.2",
     "aos": "^2.3.4",
     "axios": "^0.27.2",
-    "bootstrap": "^5.2.1",
     "chart.js": "^3.8.0",
     "file-loader": "^6.2.0",
     "framer-motion": "^6.3.11",
