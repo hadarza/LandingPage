@@ -73,17 +73,22 @@ const Carosual = ({title,obj}) => {
 const ImageComponent = ({titleCard,image,href}) => {
     return (
        <div className='flex-col'>
-        {console.log(titleCard)}
-            <a alt="href" href={href} download>
-                <img  style={{
-                height:'20rem',
-                objectFit: 'contain',
-                marginBottom: '10px',
-                borderRadius: '20px'
+              <div style={{
+                height:'20.5rem',
+                width:'24rem',
+                marginBottom: '6px'
+              }}>
+              <a alt="href" href={href} download>
+                <img style={{
+                width:'100%',
+                borderRadius: '20px',
                 }} src={image}/>
+
             </a>
              
-          <h5>{titleCard}</h5>
+          <div className='title-card-carosuel'>{titleCard}</div>
+          </div>
+
       </div>
     )
 };

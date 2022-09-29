@@ -151,6 +151,10 @@ h6{
   border-radius: 30px;
   @include flex-col;
 }
+.title-card-carosuel{
+  font-size: 1.7rem;
+  text-align: center;
+}
 
 .w-h-card{
   width: 100%;
