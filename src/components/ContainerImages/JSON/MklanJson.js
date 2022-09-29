@@ -1,34 +1,34 @@
 import {images,PP} from '../../../constants/index'
 export const MklanJson = [
     {
-        "name":"איפוס קטלנית",
-        "img": images.Tank,
+      "name":"כותרת מסווג",
+      "img": images.Tank,
         "href": PP.href1
     },
     {
-        "name":"סרי",
-        "img": images.Tank,
+      "name":"כותרת מסווג",
+      "img": images.Tank,
         "href": PP.href1
 
   },
   {
-    "name":"תא מקלען התת",
+    "name":"כותרת מסווג",
     "img": images.Tank,
     "href": PP.href1
 
   },
   {
-    "name":"הכנת העמדה לפעולה",
+    "name":"כותרת מסווג",
     "img": images.Tank,
     "href": PP.href1
 
   },
   {
-    "name":"תפעול צג",
+    "name":"כותרת מסווג",
     "img": images.Tank
   },
   {
-    "name":"עמדת מקלעת אתת",
+    "name":"כותרת מסווג",
     "img": images.Tank
   }
   ]

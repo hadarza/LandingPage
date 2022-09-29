@@ -2,7 +2,7 @@ import {images,PP} from '../../../constants/index'
 
 export const Mafkad = [
     {
-        "name":"היכר תא המפקד",
+        "name":"כותרת מסווג",
         "img": images.Tank,
         "href": PP.href1
 

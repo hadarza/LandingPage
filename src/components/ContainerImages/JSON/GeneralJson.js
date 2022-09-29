@@ -2,13 +2,13 @@ import {images,PP} from '../../../constants/index'
 
 export const GeneralJson = [
     {
-        "name":"התת הכללי",
+        "name":"כותרת מסווג",
         "img": images.Tank,
         "href": PP.href1
 
     },
     {
-        "name":"תרגולות מחיייבות",
+        "name":"כותרת מסווג",
         "img": images.Tank,
         "href": PP.href1
 
